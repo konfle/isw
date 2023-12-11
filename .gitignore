@@ -1,0 +1,44 @@
+# Ignore Python bytecode files, build folders, and virtual environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+isw-venv/
+env/
+
+# Ignore Node.js related files and folders
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore compiled files for React
+/build
+/dist
+
+# Ignore Docker-related files and folders
+docker-compose.override.yml
+Dockerfile
+.dockerignore
+
+# Ignore local database files
+*.sqlite
+*.db
+
+# Ignore local environment files
+.env
+
+# Ignore logs and other generated files
+logs/
+*.log
+
+# Ignore user-specific VSCode settings
+.vscode/
+
+# Ignore system files that might be created on different operating systems
+.DS_Store
+Thumbs.db
+
+# Default ignored files
+/shelf/
+/workspace.xml
+.idea
